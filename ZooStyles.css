@@ -1,0 +1,136 @@
+body{
+    background-color: #E3CCA1;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+}
+
+#Container{
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #FFF;
+    border-right: solid 2px #52331c;
+    Border-left: solid 2px #52331c;
+
+}
+
+/*text styles*/
+h1{
+    font-family: "Arial Black", gadget, sans-serif;
+    font-size: 76px;
+    color: #4D331E;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2{
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 26px;
+}
+h3{
+    font-weight: bold;
+    margin-top: 0;
+    font-size: 26 px;
+    color: #4D331E;
+}
+p{
+    font-size: 16 px;
+    color: #4D331E;
+    padding: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+/*Menu section*/
+#Menu{
+    width: 170px;
+    float: left;
+}
+#Menu ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#Menu li{
+    background-color: #e8cc9f;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 4px;
+}
+#Menu a:link, #Menu a:visited{
+    color: #060;
+    font-weight: bold;
+    text-decoration:none ; 
+}
+#Menu a:hover, #Menu a:active{
+    color: #900;
+    text-decoration: underline;
+}
+
+/*Main section*/
+#Main{
+    margin-left: 190px;
+}
+
+#Main h3 {
+    color: #4D331E;
+    margin-top: 20px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+#Main p {
+    font-size: 16px;
+    margin-top: 6px;
+    margin-bottom: 6px;    
+}
+
+#Main a:link, #Main a:visited{
+    color: #900;
+    font-weight: bold;
+    text-decoration:none ; 
+}
+#Main a:hover, #Main a:active{
+    color: #03c;
+    text-decoration: underline;
+}
+
+/*Footer section*/
+#Footer{
+    background-color: #4D331E;
+    margin-top: 20px;
+    clear: both; /* makes the foooter always set underneath menu and image by clearing the right/left margins*/
+}
+
+#Footer p{
+    font-style: 14px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+}
+
+#Footer a:link, #Footer a:visited{
+    color: #e8cc9f;
+    text-decoration:underline; 
+}
+#Footer a:hover, #Footer a:active{
+    color: #000;
+}
+
+/*links*/
+a:link, a:visited{
+    color: #060;
+    font-weight: bold;
+    text-decoration:none ; 
+}
+a:hover, a:active{
+    color: #900;
+    text-decoration: underline;
+}
+/*class styles*/
+.rightfloat{
+    border: 2px solid #060;
+    margin: 8px;
+    float: right;
+}
